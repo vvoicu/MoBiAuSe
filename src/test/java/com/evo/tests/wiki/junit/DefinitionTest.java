@@ -11,7 +11,26 @@ public class DefinitionTest {
 	
 	@Test
 	public void moreTest(){
-		System.out.println("Hello Light... see the hamster");
+		System.out.println("Hello Light... see the Hamster!");
+		System.out.println("");
+		System.out.println("        (q\\_/p)");
+		System.out.println("    .-.  |. .|");
+		System.out.println("       \\ =\\,/=");
+		System.out.println("        )/ _ \\  |\\");
+		System.out.println("       (/\\):(/\\  )\\");
+		System.out.println("    evo \\_   _/ |Oo\\");
+		System.out.println("        `\"\"^\"\"` `\"\"\"`");
 	}
+	
+	/**
+	 *          _   _
+        (q\_/p)
+    .-.  |. .|
+       \ =\,/=
+        )/ _ \  |\
+       (/\):(/\  )\
+    jgs \_   _/ |Oo\
+        `""^""` `"""`
+	 */
 
 }
