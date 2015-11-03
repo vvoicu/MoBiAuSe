@@ -1,9 +1,0 @@
-com\evo\tests\wiki\junit\DefinitionTest.class
-com\evo\sites\wiki\steps\EndUserSteps.class
-com\evo\tests\wiki\cucumber\WikiDefinitionsTest.class
-com\evo\tools\AbstractSteps.class
-com\evo\sites\wiki\pages\home\DictionaryPage.class
-com\evo\sites\wiki\pages\home\DictionaryPage$1.class
-com\evo\tools\AbstractPage.class
-com\evo\suites\wiki\WikiFullSuite.class
-com\evo\sites\wiki\glue\WikiDefinitions.class
