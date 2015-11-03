@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Lookup a definition","Looking up the definition of 'apple'","ERROR","2015-11-04T00:32:19.738+02:00","0.0","8.7"
+"Lookup a definition","Looking up the definition of 'beer'","ERROR","2015-11-04T00:32:37.659+02:00","0.0","7.64"
+"Lookup a definition","Looking up the definition of 'pear'","ERROR","2015-11-04T00:32:29.443+02:00","0.0","7.48"
