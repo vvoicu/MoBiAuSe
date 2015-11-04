@@ -95,7 +95,8 @@
                     <systemPropertyVariables>
                         <webdriver.driver>${webdriver.driver}</webdriver.driver>
                         <webdriver.base.url>${base.url}</webdriver.base.url>
-                        <webdriver.chrome.driver></webdriver.chrome.driver>
+                        <webdriver.chrome.driver>${basedir}/src/test/resources/drivers/chromedriver220.exe</webdriver.chrome.driver>
+						<webdriver.ie.driver>${basedir}/src/test/resources/drivers/IEDriverServer.exe</webdriver.ie.driver>
                     </systemPropertyVariables>
                 </configuration>
                 <executions>
