@@ -1,0 +1,4 @@
+I just want to access the CMS site
+To see if I can login and have my full name displayed on site after login
+Then I will try to access one site content
+And I will click on create new content module to create a brand new module
