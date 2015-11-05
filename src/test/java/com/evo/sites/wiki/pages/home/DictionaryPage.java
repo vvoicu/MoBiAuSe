@@ -6,6 +6,7 @@ import java.util.List;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
+import net.thucydides.core.annotations.DefaultUrl;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -14,7 +15,7 @@ import ch.lambdaj.function.convert.Converter;
 
 import com.evo.tools.AbstractPage;
 
-//@DefaultUrl("http://en.wiktionary.org/wiki/Wiktionary")
+@DefaultUrl("http://en.wiktionary.org/wiki/Wiktionary")
 public class DictionaryPage extends AbstractPage {
 
     @FindBy(name="search")
@@ -24,6 +25,7 @@ public class DictionaryPage extends AbstractPage {
     private WebElementFacade lookupButton;
 
     public void enter_keywords(String keyword) {
+    	element(searchTerms).waitUntilVisible();
         searchTerms.type(keyword);
     }
 
